@@ -1,0 +1,40 @@
+.solution {
+  display: flex;
+  flex-direction: column;
+}
+
+.solution .dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  width: 80vw;
+  margin: auto;
+}
+
+.solution .table {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 80vw;
+  min-height: 60vh;
+  color: white;
+  font-size: calc(1px + 2vmin);
+  margin: auto;
+}
+
+.idCol {
+  width: 10vw;
+}
+
+.labelCol {
+  width: 20vw;
+}
+
+.descriptionCol {
+  width: 50vw;
+}
+
+.synonymsCol {
+  width: 30vw;
+}

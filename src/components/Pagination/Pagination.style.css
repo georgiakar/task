@@ -1,0 +1,15 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 300;
+    font-size: calc(2px + 2vmin);
+    padding: 40px;
+  }
+  
+  .pagination .navigate {
+    display: flex;
+    cursor: pointer;
+    color: #61dafb;
+    padding: 0 13px;
+  }

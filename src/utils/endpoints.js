@@ -1,0 +1,1 @@
+export const ebiEndpoint = 'https://www.ebi.ac.uk/ols/api'

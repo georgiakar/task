@@ -1,0 +1,21 @@
+.task {
+  display: flex;
+  flex-direction: column;
+}
+
+.task .description {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 180vh;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.task .linkto {
+  font-size: calc(10px + 2vmin);
+  font-weight: 300;
+  padding-top: 10px;
+  cursor: pointer;
+  color: #61dafb;
+}

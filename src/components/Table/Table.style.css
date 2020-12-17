@@ -1,0 +1,22 @@
+.table table {
+  border-color: #dddddd3d;
+  border-collapse: collapse;
+}
+
+.table tr {
+  border-top: 1px solid;
+  border-color: #dddddd3d;
+  vertical-align: top;
+}
+
+.table tr th {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #dddddd3d;  
+  padding: 5px 0;
+  background-color: rgb(129 133 162 / 12%);
+}
+
+.table td:not(:last-child) {
+  padding-right: 30px;
+}
